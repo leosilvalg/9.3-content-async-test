@@ -8,6 +8,7 @@ const fetchCharacter = async (id) => {
     const results = await promiseFetch.json();
 
     //Retornamos o resultado da nossa requisição
+    console.log(results);
     return results;
   } catch (error) {
     // Caso algo aconteça e nossa requisição não seja realizada com sucesso
